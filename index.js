@@ -86,22 +86,49 @@ client.on('message', message => {
     if (message.body === '5') {
         message.reply(
             "☎️ *Kontak Perangkat Desa*\n\n" +
-            "Kepala Desa: 0812-xxxx-xxxx\n" +
+            "Kepala Desa: 0815-6789-3810\n" +
             "Sekretaris Desa: 0813-xxxx-xxxx\n" +
-            "Kasi Pelayanan: 0857-xxxx-xxxx"
+            "Kasi Pemerintahan: 0857-xxxx-xxxx\n" +
+            "Kaur Keuangan: 0857-xxxx-xxxx\n" +
+            "Kepala Dusun 1: 0857-xxxx-xxxx\n" +
+            "Kepala Dusun 2: 0857-xxxx-xxxx\n" +
+            "Kepala Dusun 3: 0857-xxxx-xxxx"
         );
         return;
     }
 
-    if (message.body === '6') {
+        if (message.body === '6') {
         message.reply(
             "🏡 *Tentang Desa Burikan*\n\n" +
-            "Desa Burikan terletak di Kecamatan Cawas, Klaten.\n" +
-            "Mayoritas masyarakat bekerja sebagai petani.\n" +
-            "Desa ini memiliki potensi pertanian dan budaya lokal."
+            "Desa Burikan merupakan salah satu desa yang berada di Kecamatan Cawas, Kabupaten Klaten, Jawa Tengah. Desa ini dikenal dengan suasana pedesaan yang asri, lingkungan yang masih alami, serta kehidupan sosial masyarakat yang harmonis. Hamparan sawah hijau yang luas, aliran irigasi yang tertata, dan pemandangan pegunungan di kejauhan menjadikan Desa Burikan memiliki potensi alam yang memukau dan khas pedesaan Jawa.\n\n" +
+
+            "*1. Kondisi Geografis*\n" +
+            "Wilayah desa berupa dataran rendah hingga sedang, didominasi lahan persawahan produktif. Sistem irigasi yang memadai menjadikan pertanian di desa ini subur dan dapat ditanami sepanjang tahun. Lingkungan desa dikelilingi pepohonan peneduh, sungai kecil, serta area perkampungan yang tertata rapi.\n\n" +
+
+            "*2. Demografi Masyarakat*\n" +
+            "Mayoritas masyarakat bekerja sebagai petani, buruh harian, pedagang lokal, dan pelaku usaha kecil. Ikatan sosial antarwarga kuat, tercermin dari budaya gotong royong dan tradisi keagamaan yang harmonis.\n\n" +
+
+            "*3. Potensi Alam dan Wisata*\n" +
+            "- Hamparan persawahan luas yang indah.\n" +
+            "- Jalan akses ke tengah sawah.\n" +
+            "- Pemandangan gunung di kejauhan.\n" +
+            "- Suasana tenang dan udara segar.\n" +
+            "Potensi ini dapat dikembangkan menjadi wisata alam, foto, trekking sawah, kuliner tradisional, atau edukasi pertanian.\n\n" +
+
+            "*4. Ekonomi dan UMKM*\n" +
+            "Masyarakat memiliki berbagai produk lokal seperti hasil pertanian, kerajinan rumah, makanan tradisional, dan UMKM kecil. Potensi ini dapat ditingkatkan melalui pemasaran digital, branding, dan kolaborasi komunitas.\n\n" +
+
+            "*5. Infrastruktur Desa*\n" +
+            "Desa memiliki jalan desa yang baik, balai desa, sarana ibadah, posyandu, sekolah dasar, serta saluran irigasi yang mendukung kegiatan pertanian.\n\n" +
+
+            "*6. Nilai Budaya dan Sosial*\n" +
+            "Desa Burikan masih menjaga tradisi budaya Jawa seperti selametan, bersih desa, dan seni tradisional. Masyarakat dikenal ramah, religius, dan menjunjung kebersamaan.\n\n" +
+
+            "👉 Ketik *menu* untuk kembali ke menu utama."
         );
         return;
     }
+
 
     if (message.body === '7') {
         message.reply(
