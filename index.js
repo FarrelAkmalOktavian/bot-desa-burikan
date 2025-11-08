@@ -87,12 +87,11 @@ client.on('message', message => {
         message.reply(
             "☎️ *Kontak Perangkat Desa*\n\n" +
             "Kepala Desa: 0815-6789-3810\n" +
-            "Sekretaris Desa: 0813-xxxx-xxxx\n" +
-            "Kasi Pemerintahan: 0857-xxxx-xxxx\n" +
-            "Kaur Keuangan: 0857-xxxx-xxxx\n" +
-            "Kepala Dusun 1: 0857-xxxx-xxxx\n" +
-            "Kepala Dusun 2: 0857-xxxx-xxxx\n" +
-            "Kepala Dusun 3: 0857-xxxx-xxxx"
+            "Kasi Pemerintahan: 0882-2753-9296\n" +
+            "Kaur Keuangan: 0881-3980-121\n" +
+            "Kepala Dusun 1: 0856-0102-2821\n" +
+            "Kepala Dusun 2: 0816-4246-049\n" +
+            "Kepala Dusun 3: 0881-0242-41498"
         );
         return;
     }
